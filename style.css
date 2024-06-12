@@ -1,0 +1,297 @@
+@font-face {
+    font-family: work;
+    src: url(./WorkSans-VariableFont_wght.ttf);
+}*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:work;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    /* background-color: red; */
+    height: 100%;
+    width:100%;
+    padding: 0px 90px ;
+    padding-top: 130px;
+    display: flex;
+    align-items: flex-end;
+    gap: 100px;
+}
+#left{
+    height: 120%;
+    width:48%;
+    /* background-color: beige; */
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 70px;
+}
+#left h1{
+    margin-top: 60px;
+    /* font-size: 120px; */
+    font-size: 8.6vw;
+    font-weight: 300;
+    /* line-height: 110px; */
+    line-height: 8.6vw;
+}
+#left-bottom{
+    /* height: 40%; */
+    width: 110%;
+    /* background-color: aquamarine; */
+}
+
+#colors{
+    /* background-color: blue; */
+    width: fit-content;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+#colors h5{
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 500;
+}
+#color1{
+    background-color: brown;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin: 5px;
+}
+#color2{
+    background-color: rgb(65, 92, 68);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+#left-bottom h2{
+    margin-top:30px;
+    /* font-size: 30px;  */
+    font-size: 2vw;
+    margin-bottom: 15px;
+}
+#left-bottom p{
+    margin-top: 10px;
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: #333;
+    line-height: 1.6vw;
+
+}
+#right{
+    /* background-color: rgb(209, 126, 126); */
+    height: 90%;
+    width:25%;
+    position: relative;
+    margin-right: 40px;
+
+}
+#right-top{
+    height: 30px;
+    width:100% ;
+    /* background-color: red; */
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-right: 20px;
+    margin-bottom: 15px;
+}
+#right-top h4{
+    font-size: 25px;
+    font-weight: 500;
+}
+#right-top h5{
+    font-size: 16px;
+}
+#right-top h5 i{
+    color: gold;
+}
+#right img{
+    object-fit: cover;
+    width: 100%;
+    height: 95%;
+}
+#black-gola{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: rgba(20, 20, 21, 0.753);
+    color: white;
+    top:25%;
+    right:-20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#black-gola h5{
+    font-size: 20px;
+    font-weight: 500;
+}
+#rotated{
+    position: absolute;
+    left: -17%;
+    bottom: -7%;
+    rotate: -90deg;
+    transform-origin: 0 0;
+    color: rgb(10, 9, 9);
+    font-size: 40px;
+    font-weight: 600;
+}
+
+@media(max-width:600px){
+#main{
+    height:100%;
+    width:100%;
+    padding: 10px ;
+    padding-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start ;
+    gap: 90px;
+    flex-direction: column;
+    }
+    #left{
+        height:fit-content;
+        width:130%;
+        /* background-color: beige;  */
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 50px;
+    }
+    #left h1{
+        margin-top: 5px;
+        /* font-size: 120px; */
+        font-size: 18vw;
+        /* margin-left: 10px; */
+        font-weight: 300;
+        /* line-height: 110px; */
+        line-height: 18vw;
+    }
+    #left-bottom{
+        /* height: 40%; */
+        width: 110%;
+        /* background-color: aquamarine; */
+    }
+    
+    #colors{
+        /* background-color: blue; */
+        width: fit-content;
+        padding: 6px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50px;
+        border: 1px solid black;
+        margin-top: 40px;
+    }
+    #colors h5{
+        font-size: 13px;
+        margin-right: 5px;
+        font-weight: 500;
+
+    }
+    #color1{
+        background-color: brown;
+        height: 12px;
+        width: 12px;
+        border-radius: 50%;
+        margin-right: 10px;
+        margin: 5px;
+    }
+    #color2{
+        background-color: rgb(65, 92, 68);
+        height: 12px;
+        width: 13px;
+        border-radius: 50%;
+    }
+    #left-bottom h2{
+        margin-top:20px;
+        /* font-size: 30px;  */
+        font-size: 5vw;
+        margin-bottom: 10px;
+    }
+    #left-bottom p{
+        margin-top: 10px;
+        font-size: 3.2vw;
+        font-weight: 600;
+        color: #333;
+        line-height: 4vw;
+        width: 90%;
+    }
+    #right{
+        /* background-color: rgb(209, 126, 126); */
+        height: 90%;
+        width:100%;
+        position: relative;
+        margin-right: 40px;
+        display: flex;
+        flex-direction: column-reverse;
+    
+    } 
+    #right-top{
+        height: 60px;
+        width:100% ;
+        /* background-color: red; */
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+        padding-right: 0px;
+        margin-bottom: 15px;
+    }
+    #right-top h4{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    #right-top h5{
+        font-size: 16px;
+    }
+    #right-top h5 i{
+        color: gold;
+    }
+    #right img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+    #black-gola{
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: rgba(20, 20, 21, 0.868);
+        color: white;
+        top:-10%;
+        right:-6%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #black-gola h5{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    #rotated{
+        position: absolute;
+        left: 0;
+        top:-10%;
+        rotate: 0deg;
+        transform-origin: 0 0;
+        color: rgb(10, 9, 9);
+        font-size: 35px;
+        font-weight: 600;
+    }    
+}
